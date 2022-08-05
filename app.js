@@ -16,7 +16,7 @@ app.use(logger('dev'));
 app.use(globalRoutes);
 app.use(cors);
 
-const port = 3000;
+const port = 8080;
 server.listen(
     port,
     () => console.log(`server listening on localhost:${port}`)
