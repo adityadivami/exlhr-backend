@@ -1,8 +1,8 @@
 import fs from "fs"
 
-const File1 = fs.readFileSync(__dirname + "/urls.js", 'utf8')
-const File2 = fs.readFileSync(__dirname + "/urls.js", 'utf8')
-const PDF = fs.readFileSync(__dirname + "/urls.js", 'utf8')
+const File1 = fs.readFileSync(__dirname + "/endpoints.js", 'utf8')
+const File2 = fs.readFileSync(__dirname + "/endpoints.js", 'utf8')
+const PDF = fs.readFileSync(__dirname + "/endpoints.js", 'utf8')
 
 export const endpoints = [
     {
