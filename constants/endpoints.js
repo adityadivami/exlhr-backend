@@ -52,7 +52,7 @@ export const endpoints = [
             "Required a Consultant II | Analytics | Retail, Media & Hi-Tech with 4.0 years  of experience. And proficient in agile, analysis, analytical, analytics, crm, data and, databases, it, management, science, statistical, statistics, visualization",
           ],
           createdBy: {
-            name: "2021-02-26T00:00:00",
+            name: "Karan Singh",
             designation: "Recruiter",
           },
           matchText: "Total 158 resume matches found of 2920 resumes",
@@ -473,24 +473,60 @@ export const endpoints = [
     url: "http://localhost:8080/profiles/candidateresume/CandidateId=1234&JobId=1234",
     method: "GET",
     response: {
+      // data: {
+      //   summary: "Some summary text",
+      //   matchPercentage: 53,
+      //   keywords: [
+      //     {
+      //       keyword: "Javascript",
+      //       frequency: 4,
+      //       matchPercentage: 40,
+      //     },
+      //   ],
+      //   jobsApplied: [
+      //     {
+      //       id: 1123432,
+      //       role: "Senior Front end developer",
+      //     },
+      //     {
+      //       id: 1123433,
+      //       role: "Front end developer",
+      //     },
+      //   ],
+      // },
       data: {
-        summary: "Some summary text",
+        summary:
+          "Name: Ghritalhre, Himanshu\nStatus: New\nOrganizations: Bachelors In Electronics And Telecommunications, Masters In Data Science\nEducation: Anthem, NC, Sealed Air, Index Analytics,PharmaForce International, Macro Software Solutions\nExperience: 6.7\nRoletype: Technical\nSkills:(support vector, agile, ai, ai, algorithm, algorithms, amazon, amazon (aws), analysis, analytical, analytics,aws, aws, big data, classification, cnn, cnn, convolutional neural network, dashboards, data modeling,data visualization, data visualizations, database, deep, deep learning, design, designing, developer,development, df, eda, emr, excel, excel, exploratory analysis, extract, extraction, forecast, ggplot2,ggplot2, git, git, gradient, grafana, implementation, linear, linux, linux, logistic regression, lstm, lstm,lstm model, machine learning, machine learning algorithms, macro, matplotlib, matplotlib, ml, modeling, mongodb, mongodb, mysql, mysql, mysql connector, mysql db, natural language processing, neural, neural networks, nlp, nlp, nosql, nosql databases, numpy, numpy packages, opencv, pandas, pandas, plotly, plots, power, power bi, predictive, predictive analysis, predictive data modeling, pycharm, pyspark, pyspark, python, python, python script, r, r, r-studio data, random, random forest, regression, regression, reporting, rnn, s3, s3, sas, schema, science, scikit, scipy, sdlc, seaborn, seaborn, segmentation, selenium, software, software development life cycle, spark, spark processing,, sql, sql, statistical, statistical analysis, studio, supervised, svm, svm, tableau, tableau, tensorflow, testing, text, trees, unsupervised, unsupervised machine learning, visual studio, visualization, visualizations, vmsvirtual machines, waterfall, windows, xgb classifier",
         matchPercentage: 53,
         keywords: [
           {
             keyword: "Javascript",
-            frequency: 4,
-            matchPercentage: 40,
+            frequency: 1423,
+            score: 0.4,
+          },
+          {
+            keyword: "React",
+            frequency: 144,
+            score: 0.3,
+          },
+          {
+            keyword: "Angular",
+            frequency: 1235,
+            score: 0.6,
           },
         ],
         jobsApplied: [
           {
             id: 1123432,
             role: "Senior Front end developer",
+            date: "2015-03-25T12:00:00Z",
+            status: "active",
           },
           {
             id: 1123433,
             role: "Front end developer",
+            date: "2015-03-25T12:00:00Z",
+            status: "active",
           },
         ],
       },
