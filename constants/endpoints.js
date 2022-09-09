@@ -36,8 +36,9 @@ export const endpoints = [
       jobs: [
         {
           id: 444,
+          exp_range: "2-3years",
           created: "2021-02-26T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Consultant II | Analytics | Retail, Media & Hi-Tech",
           match_criteria: {
             "90 to 100": 0,
@@ -46,18 +47,21 @@ export const endpoints = [
             "0 to 20": 0,
           },
           status: "atRisk",
-          keywords: "",
-          summary:
+          keywords: [""],
+          summary: [
             "Required a Consultant II | Analytics | Retail, Media & Hi-Tech with 4.0 years  of experience. And proficient in agile, analysis, analytical, analytics, crm, data and, databases, it, management, science, statistical, statistics, visualization",
+          ],
           createdBy: {
-            name: "Siddharthan, Vijayasarathy 168195",
+            name: "2021-02-26T00:00:00",
             designation: "Recruiter",
           },
+          matchText: "Total 158 resume matches found of 2920 resumes",
         },
         {
           id: 442,
+          exp_range: "2-3years",
           created: "2021-02-26T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Data Engineer | Analytics | Retail, Media & Hi-Tech",
           match_criteria: {
             "90 to 100": 0,
@@ -65,19 +69,22 @@ export const endpoints = [
             "20 to 50": 0,
             "0 to 20": 0,
           },
-          keywords: "",
+          keywords: [""],
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Data Engineer | Analytics | Retail, Media & Hi-Tech with 5.0 years  of experience. And proficient in agile, airflow, analysis, analytical, analytical, analytics, azure, big, big data, cloud, cloud, cluster, crm, data models, db2, db2, design, designing, framework, gcp), hadoop, hadoop, hbase, kafka, kubernetes, machine learning, management, modeling, nlp, nlp, nosql, oracle, pig, pytorch, rdbms, reporting, science, spark, spark, sql, sql,, statistical, statistics, teradata",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 158 resume matches found of 2920 resumes",
         },
         {
           id: 443,
+          exp_range: "2-3years",
           created: "2021-02-26T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Data Visualization | Analytics | Retail, Media & Hi-Tech",
           match_criteria: {
             "90 to 100": 0,
@@ -87,17 +94,20 @@ export const endpoints = [
           },
           keywords: "",
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Data Visualization | Analytics | Retail, Media & Hi-Tech with 4.0 years  of experience. And proficient in (extract transform, agile, analysis, analytical, analytics, bi, bi, business intelligence, crm, dashboards, data models, data visualizations, design, designing, etl, etl, hadoop, management, math, oracle, power, power bi,, python, qlikview, r, r,, reporting, sas, software, sql, sql, statistical, statistics, tableau, tableau, teradata, testing, testing, transform, visualization, visualizations",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 0 resume matches found of 2920 resumes",
         },
         {
           id: 234,
+          exp_range: "2-3years",
           created: "2021-04-07T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title:
             "Engagement Manager | Analytics | Banking & Financial Services",
           match_criteria: {
@@ -108,17 +118,20 @@ export const endpoints = [
           },
           keywords: "",
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Engagement Manager | Analytics | Banking & Financial Services with 6.0 years  of experience. And proficient in agile, ai, analysis, analysts, analytical, analytics, ba/bs, big, big data,, crm, design, management, services, statistical",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 157 resume matches found of 2920 resumes",
         },
         {
           id: 236,
+          exp_range: "2-3years",
           created: "2021-07-01T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title:
             "Data Capabilities Project Manager | Analytics | Banking & Financial Services",
           match_criteria: {
@@ -129,17 +142,20 @@ export const endpoints = [
           },
           keywords: "",
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Data Capabilities Project Manager | Analytics | Banking & Financial Services with 7.0 years  of experience. And proficient in accuracy, agile, agile, ai, analysis, analytics, asana, ba/bs, bi, bi, big, big data, building, business intelligence, cloud, cloud, crm, dashboards, data engineering, database, design, designing, etl, etl, implementation, insurance, jira, jira,, management, mis, pm, reporting, statistical, teams, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 117 resume matches found of 2920 resumes",
         },
         {
           id: 1397,
+          exp_range: "2-3years",
           created: "2021-08-23T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title:
             "Lead Assistant Manager (SAS/SQL/ETL developer) - Decision Analytics",
           match_criteria: {
@@ -150,17 +166,20 @@ export const endpoints = [
           },
           status: "atRisk",
           keywords: "",
-          summary:
+          summary: [
             "Required a Lead Assistant Manager (SAS/SQL/ETL developer) - Decision Analytics with 5.0 years  of experience. And proficient in analysis, analytics, automation, building, coding, crm, dataset, datasets, design, excel, excel, joins, management, power, python, sas, sas, scrum, software, sql, statistical, testing",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 172 resume matches found of 2920 resumes",
         },
         {
           id: 1679,
+          exp_range: "2-3years",
           created: "2021-11-01T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Machine Learning Engineer",
           match_criteria: {
             "90 to 100": 0,
@@ -170,17 +189,20 @@ export const endpoints = [
           },
           status: "atRisk",
           keywords: "",
-          summary:
+          summary: [
             "Required a Machine Learning Engineer with 4.0 years  of experience. And proficient in access, agile, agile, ai, airflow, algorithms, analysis, analytical, analytics, aws, aws cloud,, ba/bs, big, big data,, building, ci/cd, ci/cd, cloud, coding, crm, data science, detection, dynamodb, ec2, hadoop, hive, insurance, kafka, kinesis, lambda, machine learning, management, ml, ml, pipeline, programming, python, python, s3, sagemaker, spark, spark, statistical, statistics, testing, testing, unit testing, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 159 resume matches found of 2920 resumes",
         },
         {
           id: 1766,
+          exp_range: "2-3years",
           created: "2021-10-18T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Senior Consultant",
           match_criteria: {
             "90 to 100": 0,
@@ -190,17 +212,20 @@ export const endpoints = [
           },
           keywords: "",
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Senior Consultant with 20.0 years  of experience. And proficient in a/b, agile, ai, analysis, analytical, analytics, automation, building, cloud, coding, crm, design, insurance, it, management, marketing, marketing, math, programming, python, qa/qc, services, sql, statistical, statistics, tableau, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 25 resume matches found of 2920 resumes",
         },
         {
           id: 1835,
+          exp_range: "2-3years",
           created: "2021-11-03T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Manager - Data Engineering",
           match_criteria: {
             "90 to 100": 0,
@@ -210,17 +235,20 @@ export const endpoints = [
           },
           keywords: "",
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Manager - Data Engineering with 6.0 years  of experience. And proficient in agile, ai, analytical, analytics, automation, aws, big, big data, bigquery, building, business intelligence, ci/cd, cloud, cloud, data engineering, data integration, databases, emr, etl, glue, insurance, intelligence, it, lambda, management, modeling, planning, powerbi, powerbi, python, python, quantitative, rds, redshift, science, snowflake, sns, software, sql, sqs, testing, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 158 resume matches found of 2920 resumes",
         },
         {
           id: 1588,
+          exp_range: "2-3years",
           created: "2021-12-14T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Engagement Manager - Analytics",
           match_criteria: {
             "90 to 100": 0,
@@ -228,19 +256,22 @@ export const endpoints = [
             "20 to 50": 38,
             "0 to 20": 0,
           },
-          keywords: "",
+          keywords: [""],
           status: "atRisk",
-          summary:
+          summary: [
             "Required a Engagement Manager - Analytics with 8.0 years  of experience. And proficient in agile, ai, analysis, analytics, automation, ba/bs, building, cloud, crm, dashboards, data analysis, data analytics, data manipulation, datasets, excel, in-depth, insurance, joins, ma, management, mba, python/sql, reporting, sql, sql, statistical, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 114 resume matches found of 2920 resumes",
         },
         {
           id: 1832,
+          exp_range: "2-3years",
           created: "2021-12-14T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Senior Consultant",
           match_criteria: {
             "90 to 100": 0,
@@ -249,18 +280,21 @@ export const endpoints = [
             "0 to 20": 0,
           },
           status: "atRisk",
-          keywords: "",
-          summary:
+          keywords: [""],
+          summary: [
             "Required a Senior Consultant with 2.0 years  of experience. And proficient in agile, agile, ai, algorithm, analysis, analytics, automation, big, big data, building, cleansing, cloud, cloudera, coding, crm, datasets, design, designing, detection, hadoop, hadoop, hive, hortonworks, insurance, machine learning, management, ml, ml, ml modeling, modeling, modeling, planning, predictive, prescriptive modeling, programming, pyspark, pyspark, python, python, reporting, scripts, spark, spark, statistical, statistical, tableau, tableau, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 204 resume matches found of 2920 resumes",
         },
         {
           id: 1300,
+          exp_range: "2-3years",
           created: "2022-01-04T00:00:00",
-          recruit_by: "Siddharthan, Vijayasarathy 168195",
+          recruit_by: "2021-02-26T00:00:00",
           title: "Assistant Manager - Marketing Operations",
           match_criteria: {
             "90 to 100": 0,
@@ -269,13 +303,15 @@ export const endpoints = [
             "0 to 20": 0,
           },
           status: "atRisk",
-          keywords: "",
-          summary:
+          keywords: [""],
+          summary: [
             "Required a Assistant Manager - Marketing Operations with 5.0 years  of experience. And proficient in agile, ai, analysis, analytics, building, cloud, database, databases, design, direct marketing, excel, excel, insurance, marketing, marketing, microsoft, oracle, pivot, services, sql, testing, worked",
+          ],
           createdBy: {
             name: "Siddharthan, Vijayasarathy 168195",
             designation: "Recruiter",
           },
+          matchText: "Total 171 resume matches found of 2920 resumes",
         },
       ],
       totalJobs: 12,
