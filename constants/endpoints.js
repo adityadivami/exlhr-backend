@@ -1,7 +1,7 @@
 import fs from "fs";
 
-const File1 = fs.readFileSync(__dirname + "/endpoints.js", "utf8");
-const File2 = fs.readFileSync(__dirname + "/endpoints.js", "utf8");
+// const File1 = fs.readFileSync(__dirname + "/endpoints.js", "utf8");
+// const File2 = fs.readFileSync(__dirname + "/endpoints.js", "utf8");
 const PDF = fs.readFileSync(__dirname + "/endpoints.js", "utf8");
 
 export const endpoints = [
@@ -10,14 +10,14 @@ export const endpoints = [
     endpoint: "/profiles/upload",
     url: "http://localhost:8080/profiles/upload",
     method: "POST",
-    payload: {
-      files: [File1, File2],
-      keywords: ["react", "angular", "javascript"],
-      text: PDF,
-    },
+    // payload: {
+    //   files: [File1, File2],
+    //   keywords: ["react", "angular", "javascript"],
+    //   text: PDF,
+    // },
     response: [
       {
-        Job_id: 123456,
+        Job_id: 444,
       },
       {
         Job_id: 456,
@@ -26,6 +26,17 @@ export const endpoints = [
         Job_id: 789,
       },
     ],
+    // response: [
+    //     {
+    //       RefId: 123456,
+    //     },
+    //     {
+    //       RefId: 456,
+    //     },
+    //     {
+    //       RefId: 789,
+    //     },
+    //   ],
   },
   {
     id: 3,
@@ -437,23 +448,58 @@ export const endpoints = [
     response: {
       data: {
         resumes: [
+          //   {
+          //     rank: "1",
+          //     name: "siva",
+          //     location: "hyderabad",
+          //     experience: "0.58",
+          //     jobsApplied: 323,
+          //     score: "0.69",
+          //     keywords: ["react", "angular"],
+          //     status: "active",
+          //   },
+          //   {
+          //     rank: "2",
+          //     name: "Venkat",
+          //     location: "Banglore",
+          //     experience: "2.5",
+          //     jobsApplied: 3,
+          //     score: "0.43",
+          //     keywords: ["Python", "Scala"],
+          //     status: "Unavailable",
+          //   },
           {
-            name: "siva",
-            location: "hyderabad",
-            exp: "10 yrs",
-            no_of_jobs_applied: 3,
-            match_percentage: 80,
-            keywords: ["react", "angular"],
-            status: "active",
+            rank: "1",
+            score: "0.63",
+            keywords: ["analytical", "automation", "big data"],
+            name: "GHANTASALA, Pavan Kumar",
+            status: "Available",
+            location: "Los Angeles",
+            jobsApplied: 1,
+            experience: "0.59",
+            candidateID: "1234",
           },
           {
-            name: "Venkat",
-            location: "Banglore",
-            exp: "10 yrs",
-            no_of_jobs_applied: 3,
-            match_percentage: 80,
-            keywords: ["Python", "Scala"],
-            status: "Unavailable",
+            rank: "2",
+            score: "0.43",
+            keywords: ["analytical", "automation", "big data"],
+            name: "Mangat Sharmila",
+            status: "Available",
+            location: "New York",
+            jobsApplied: 2,
+            experience: "3.4",
+            candidateID: "1235",
+          },
+          {
+            rank: "1",
+            score: "0.63",
+            keywords: ["analytical", "automation", "big data"],
+            name: "GHANTASALA, Pavan Kumar",
+            status: "Available",
+            location: "Los Angeles",
+            jobsApplied: 1,
+            experience: "0.59",
+            candidateID: "1236",
           },
         ],
         count: 100,
@@ -469,8 +515,9 @@ export const endpoints = [
   },
   {
     id: 6,
-    endpoint: "/profiles/candidateresume/:parameters",
-    url: "http://localhost:8080/profiles/candidateresume/CandidateId=1234&JobId=1234",
+    endpoint: "/profiles/candidatesummary",
+    url: "http://localhost:8080/profiles/candidatesummary?JobId=1&CandidateId=1",
+    // /profiles/candidatesummary/?JobId=234&amp;CandidateId=85479
     method: "GET",
     response: {
       // data: {
@@ -587,27 +634,12 @@ export const endpoints = [
         summary:
           "Multi-faceted, efficient, and reliable administrative professional with 10+ years of experience supporting executives, sales personnel, and managers to improve internal operations for small businesses. Proficient in CRM applications and designing programs. Diversified skill set covering administrative support, client relations, writing, human resources, and find in recruiting, account management, and project management. Excellent interpersonal, phone, and digital communication.",
         keywords: ["react", "angular", "javascript"],
-        match_criteria: [
-          {
-            key: "90 to 100",
-            value: 10,
-            from: 90,
-            to: 100,
-            value: 10,
-          },
-          {
-            key: "50 to 90",
-            value: 50,
-          },
-          {
-            key: "20 to 50",
-            value: 30,
-          },
-          {
-            key: "0 to 20",
-            value: 10,
-          },
-        ],
+        match_criteria: {
+          "90 to 100": 0,
+          "50 to 90": 114,
+          "20 to 50": 44,
+          "0 to 20": 0,
+        },
       },
     },
   },
@@ -618,14 +650,14 @@ export const endpoints = [
     method: "GET",
     response: {
       metrics: {
-        evaluation: 23,
-        selected: 23,
-        available: 23,
-        rejected: 52,
-        onHold: 25,
-        applied: 30,
+        // evaluation: 23,
+        Selected: 23,
+        Available: 48,
+        Declined: 52,
+        "On Hold": 23232,
+        Applied: 30,
       },
-      total: 150,
+      total: 1500,
     },
   },
   {
