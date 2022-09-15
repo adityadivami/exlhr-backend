@@ -341,7 +341,7 @@ export const endpoints = [
           totalJobApplication: 349,
           shortListed: 20,
           onHold: 5,
-          averageTimeToHire: "300-60",
+          averageTimeToHire: "30-60",
           hiringConversionRate: 7,
         },
         hiringConfiguration: {
