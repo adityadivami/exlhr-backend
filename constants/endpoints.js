@@ -67,6 +67,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 158 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 442,
@@ -90,6 +91,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 158 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 443,
@@ -113,6 +115,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 0 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 234,
@@ -187,7 +190,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 172 resume matches found of 2920 resumes",
-          source: "manual",
+          source: "Ceridian",
         },
         {
           id: 1679,
@@ -211,6 +214,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 159 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 1766,
@@ -234,6 +238,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 25 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 1835,
@@ -257,6 +262,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 158 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 1588,
@@ -280,6 +286,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 114 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 1832,
@@ -303,6 +310,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 204 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
         {
           id: 1300,
@@ -326,6 +334,7 @@ export const endpoints = [
             designation: "Recruiter",
           },
           matchText: "Total 171 resume matches found of 2920 resumes",
+          source: "Ceridian",
         },
       ],
       totalJobs: 12,
